@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-import SkeletonLoader from '../components/Loaders/SkeletonLoader';
+import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
 import JoditEditor from 'jodit-react';
 import axios from "axios";
