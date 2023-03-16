@@ -16,7 +16,7 @@ const ToFollow = () => {
 
     useEffect(() => {
         const fetchUsers = async () => {
-            const result = await axios.get('http://localhost:8000/fetchusers');
+            const result = await axios.get('https://blogmate-api.onrender.com/fetchusers');
             setUsers(result.data)
         }
         fetchUsers();

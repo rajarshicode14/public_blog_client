@@ -20,7 +20,7 @@ const Read = () => {
 
     useEffect(() => {
         const fetchPostData = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchpost/${id}`)
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchpost/${id}`)
             setPostInfo(result.data)
         }
         fetchPostData();

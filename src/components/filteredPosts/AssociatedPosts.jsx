@@ -21,7 +21,7 @@ const AssociatedPosts = ({ data }) => {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchuserposts/${data.createdBy._id}/${3}/${skip}`);
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchuserposts/${data.createdBy._id}/${3}/${skip}`);
             setAssociatedPosts([...result.data.posts, ...associatedPosts])
             setTotalPosts(result.data.totalPosts)
         }

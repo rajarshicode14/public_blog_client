@@ -15,7 +15,7 @@ const Bookmarks = () => {
 
     useEffect(() => {
         const fetchUser = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchuser/${userId}`)
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchuser/${userId}`)
             setBookmarks(result.data.bookmarks)
         }
         fetchUser();

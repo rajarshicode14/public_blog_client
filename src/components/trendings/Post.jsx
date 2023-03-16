@@ -30,7 +30,7 @@ const Post = ({ data }) => {
             return;
         }
         const fetchBookmarks = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchbookmarks/${userId}`)
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchbookmarks/${userId}`)
             setBookmarkData(result.data)
         }
         fetchBookmarks();
@@ -49,10 +49,10 @@ const Post = ({ data }) => {
         setIsBookmarked(!isBookmarked);
 
         if (!isBookmarked) {
-            await axios.patch(`http://localhost:8000/addbookmark/${userId}/${postId}`)
+            await axios.patch(`https://blogmate-api.onrender.com/addbookmark/${userId}/${postId}`)
         }
         if (isBookmarked) {
-            await axios.patch(`http://localhost:8000/removebookmark/${userId}/${postId}`)
+            await axios.patch(`https://blogmate-api.onrender.com/removebookmark/${userId}/${postId}`)
         }
     }
 

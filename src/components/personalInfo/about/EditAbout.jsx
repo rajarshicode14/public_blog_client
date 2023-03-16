@@ -16,7 +16,7 @@ const EditAbout = ({ data }) => {
     };
 
     const onSubmitHandler = (e) => {
-        axios.put(`http://localhost:8000/addbio/${data._id}`, { about: about });
+        axios.put(`https://blogmate-api.onrender.com/addbio/${data._id}`, { about: about });
         window.location.reload();
     }
 

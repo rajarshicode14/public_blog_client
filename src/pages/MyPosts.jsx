@@ -19,7 +19,7 @@ const MyPosts = () => {
 
     useEffect(() => {
         const fetchMyPosts = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchuserposts/${id}/${3}/${skip}`)
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchuserposts/${id}/${3}/${skip}`)
             setPosts([...posts, ...result.data.posts])
             setTotalPosts(result.data.totalPosts)
         }

@@ -15,7 +15,7 @@ const SearchResults = () => {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const results = await axios.get(`http://localhost:8000/search/${query}`);
+            const results = await axios.get(`https://blogmate-api.onrender.com/search/${query}`);
             setPosts(results.data)
         }
         fetchPosts();

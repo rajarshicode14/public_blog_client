@@ -26,13 +26,13 @@ const MyProfile = () => {
 
     useEffect(() => {
         const fetchUserData = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchmyprofile/${id}`)
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchmyprofile/${id}`)
             setUserInfo(result.data)
         }
         fetchUserData();
 
         const fetchPosts = async () => {
-            const result = await axios.get(`http://localhost:8000/fetchuserposts/${id}/${3}/${skip}`)
+            const result = await axios.get(`https://blogmate-api.onrender.com/fetchuserposts/${id}/${3}/${skip}`)
             setUserPosts([...userPosts, ...result.data.posts])
             setTotalPosts(result.data.totalPosts)
         }

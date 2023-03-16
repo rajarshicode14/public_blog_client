@@ -14,7 +14,7 @@ const TopTrends = () => {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const random = await axios.get('http://localhost:8000/fetchrandomposts');
+            const random = await axios.get('https://blogmate-api.onrender.com/fetchrandomposts');
             setTopics(random.data)
         }
         fetchPosts();
