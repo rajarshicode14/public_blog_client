@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
-      external: ['/node_modules/axios'],
+      external: ['axios'],
     },
     outDir: 'build',
   },
