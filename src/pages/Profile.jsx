@@ -9,7 +9,7 @@ import ProfileInfo from '../components/personalInfo/ProfileInfo';
 import ProfilePosts from '../components/filteredPosts/ProfilePosts';
 import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Profile = () => {

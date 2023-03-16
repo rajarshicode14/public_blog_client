@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import Rightbar from '../components/rightbar/Rightbar';
 import BookmarkedPosts from '../components/filteredPosts/BookmarkedPosts';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Bookmarks = () => {

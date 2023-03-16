@@ -6,7 +6,7 @@ import { RiCompass3Line } from "react-icons/ri";
 import RightbarLoader from '../../loaders/RightbarLoader';
 import Profile from './Profile';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const ToFollow = () => {

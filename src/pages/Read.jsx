@@ -8,7 +8,7 @@ import PostOwner from '../components/fetchPost/PostOwner';
 import AssociatedPosts from '../components/filteredPosts/AssociatedPosts';
 import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Read = () => {

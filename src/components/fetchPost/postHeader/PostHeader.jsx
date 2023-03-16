@@ -6,7 +6,7 @@ import { BsBookmark, BsBookmarkCheckFill } from "react-icons/bs";
 
 import Follow from './Follow';
 
-import axios from 'axios';
+// import axios from 'axios';
 import moment from 'moment';
 
 

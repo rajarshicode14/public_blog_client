@@ -12,7 +12,7 @@ import SkeletonLoader from '../components/loaders/SkeletonLoader';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 import moment from 'moment';
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Home = () => {

@@ -12,7 +12,7 @@ import EndPost from '../components/loaders/EndPost';
 import SkeletonLoader from '../components/loaders/SkeletonLoader';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const MyProfile = () => {

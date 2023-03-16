@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Profile = ({ data }) => {

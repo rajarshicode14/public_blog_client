@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
 import JoditEditor from 'jodit-react';
-import axios from "axios";
+// import axios from "axios";
 
 
 const CreatePost = () => {

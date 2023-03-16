@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import axios from 'axios';
+// import axios from '/node_modules/axios/dist/axios.min.js';
 
 
 const Follow = ({ data }) => {

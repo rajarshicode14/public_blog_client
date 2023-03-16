@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { GoogleAuthProvider, signOut, signInWithPopup } from "firebase/auth";
 import { auth } from "../../config/firebaseConfig";
 
-import axios from "axios";
+// import axios from "axios";
 
 
 const authSlice = createSlice({

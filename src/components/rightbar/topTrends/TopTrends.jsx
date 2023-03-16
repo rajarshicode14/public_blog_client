@@ -5,7 +5,7 @@ import { BsLightningCharge } from "react-icons/bs";
 import Trends from './Trends';
 import RightbarLoader from '../../loaders/RightbarLoader';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const TopTrends = () => {

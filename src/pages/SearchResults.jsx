@@ -5,7 +5,7 @@ import Rightbar from '../components/rightbar/Rightbar';
 import Header from '../components/trendings/Header';
 import FilteredPost from '../components/filteredPosts/FilteredPost';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const SearchResults = () => {

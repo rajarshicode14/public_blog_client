@@ -8,7 +8,7 @@ import Spinner from '../loaders/Spinner';
 import EndPost from '../loaders/EndPost';
 import SkeletonLoader from '../loaders/SkeletonLoader'
 
-import axios from 'axios';
+// import axios from 'axios';
 import moment from 'moment';
 
 

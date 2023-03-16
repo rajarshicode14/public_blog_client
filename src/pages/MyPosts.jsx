@@ -7,7 +7,7 @@ import Spinner from '../components/loaders/Spinner';
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const MyPosts = () => {
