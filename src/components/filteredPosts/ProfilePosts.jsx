@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 
 import { BsBookmark } from "react-icons/bs";
 
-import SkeletonLoader from '../Loaders/SkeletonLoader';
+import SkeletonLoader from '../loaders/SkeletonLoader';
 
 import moment from 'moment';
 

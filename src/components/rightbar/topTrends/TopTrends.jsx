@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { BsLightningCharge } from "react-icons/bs";
 
 import Trends from './Trends';
-import RightbarLoader from '../../Loaders/RightbarLoader';
+import RightbarLoader from '../../loaders/RightbarLoader';
 
 import axios from 'axios';
 

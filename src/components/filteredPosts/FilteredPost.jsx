@@ -6,7 +6,7 @@ import { BsBookmark, BsBookmarkCheckFill } from "react-icons/bs";
 
 import axios from 'axios';
 import moment from 'moment';
-import SkeletonLoader from '../Loaders/SkeletonLoader';
+import SkeletonLoader from '../loaders/SkeletonLoader';
 
 
 const FilteredPost = ({ data }) => {

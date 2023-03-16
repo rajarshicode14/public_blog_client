@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-import SkeletonLoader from '../Loaders/SkeletonLoader';
+import SkeletonLoader from '../loaders/SkeletonLoader';
 
 import axios from 'axios';
 import moment from 'moment';

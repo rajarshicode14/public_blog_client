@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { BsBookmark } from "react-icons/bs";
 
 import InfiniteScroll from 'react-infinite-scroll-component';
-import Spinner from '../Loaders/Spinner';
-import EndPost from '../Loaders/EndPost';
-import SkeletonLoader from '../Loaders/SkeletonLoader'
+import Spinner from '../loaders/Spinner';
+import EndPost from '../loaders/EndPost';
+import SkeletonLoader from '../loaders/SkeletonLoader'
 
 import axios from 'axios';
 import moment from 'moment';

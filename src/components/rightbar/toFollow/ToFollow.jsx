@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import { RiCompass3Line } from "react-icons/ri";
 
-import RightbarLoader from '../../Loaders/RightbarLoader';
+import RightbarLoader from '../../loaders/RightbarLoader';
 import Profile from './Profile';
 
 import axios from 'axios';
