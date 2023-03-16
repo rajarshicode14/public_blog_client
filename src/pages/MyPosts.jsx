@@ -3,7 +3,8 @@ import { useSelector } from 'react-redux';
 
 import Rightbar from '../components/rightbar/Rightbar';
 import CreatedPosts from '../components/filteredPosts/CreatedPosts';
-import Spinner from '../components/Loaders/Spinner';
+import Spinner from '../components/loaders/Spinner';
+
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 import axios from 'axios';
