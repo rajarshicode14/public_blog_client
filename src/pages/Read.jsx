@@ -6,7 +6,7 @@ import Post from '../components/fetchPost/Post';
 import Rightbar from '../components/rightbar/Rightbar';
 import PostOwner from '../components/fetchPost/PostOwner';
 import AssociatedPosts from '../components/filteredPosts/AssociatedPosts';
-import SkeletonLoader from '../components/Loaders/SkeletonLoader';
+import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
 import axios from 'axios';
 

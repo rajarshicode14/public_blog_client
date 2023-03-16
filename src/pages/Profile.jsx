@@ -7,7 +7,7 @@ import Followings from '../components/personalInfo/Followings';
 import Followers from '../components/personalInfo/Followers';
 import ProfileInfo from '../components/personalInfo/ProfileInfo';
 import ProfilePosts from '../components/filteredPosts/ProfilePosts';
-import SkeletonLoader from '../components/Loaders/SkeletonLoader';
+import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
 import axios from 'axios';
 

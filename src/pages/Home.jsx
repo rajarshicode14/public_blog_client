@@ -5,9 +5,9 @@ import Header from '../components/trendings/Header';
 import Post from '../components/trendings/Post';
 import Rightbar from '../components/rightbar/Rightbar';
 import FilteredPost from '../components/filteredPosts/FilteredPost';
-import Spinner from '../components/Loaders/Spinner';
-import EndPost from '../components/Loaders/EndPost';
-import SkeletonLoader from '../components/Loaders/SkeletonLoader';
+import Spinner from '../components/loaders/Spinner';
+import EndPost from '../components/loaders/EndPost';
+import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 

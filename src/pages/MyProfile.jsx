@@ -7,9 +7,9 @@ import Followings from '../components/personalInfo/Followings';
 import Followers from '../components/personalInfo/Followers';
 import ProfileInfo from '../components/personalInfo/ProfileInfo';
 import ProfilePosts from '../components/filteredPosts/ProfilePosts';
-import Spinner from '../components/Loaders/Spinner';
-import EndPost from '../components/Loaders/EndPost';
-import SkeletonLoader from '../components/Loaders/SkeletonLoader';
+import Spinner from '../components/loaders/Spinner';
+import EndPost from '../components/loaders/EndPost';
+import SkeletonLoader from '../components/loaders/SkeletonLoader';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 import axios from 'axios';
