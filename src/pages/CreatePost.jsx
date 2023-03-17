@@ -29,7 +29,8 @@ const CreatePost = () => {
         data.set('createdBy', uid);
 
         const result = await axios.post('https://blogmate-api.onrender.com/addpost', data);
-        if (result.statusText === 'OK') {
+        console.log(result)
+        if (result.status === 200) {
             setWait(false);
             setRedirect(true);
         }
