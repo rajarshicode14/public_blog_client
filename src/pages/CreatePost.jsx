@@ -31,7 +31,6 @@ const CreatePost = () => {
         data.set('createdAt', moment().format('D/M/YYYY, h:mm:ss a'))
 
         const result = await axios.post('https://blogmate-api.onrender.com/addpost', data);
-        console.log(result)
         if (result.status === 200) {
             setWait(false);
             setRedirect(true);
