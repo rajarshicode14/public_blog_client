@@ -30,6 +30,8 @@ const MyPosts = () => {
         setSkip(skip + 3)
     }
 
+    console.log('id', id)
+    console.log('posts', posts)
 
     return (
         <>
