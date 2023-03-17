@@ -32,7 +32,7 @@ function App() {
           <Route path="/read/:id" element={<Read />} />
           {/* <Route path="/read/:id" element={<ProtectedRoute><Read /></ProtectedRoute>} /> */}
           <Route path="/profile/:id" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
-          <Route path="/myprofile/:uid" element={<ProtectedRoute><MyProfile /></ProtectedRoute>} />
+          <Route path="/myprofile" element={<ProtectedRoute><MyProfile /></ProtectedRoute>} />
           <Route path="/myposts" element={<ProtectedRoute><MyPosts /></ProtectedRoute>} />
           <Route path="/createpost" element={<ProtectedRoute><CreatePost /></ProtectedRoute>} />
           <Route path="/results/:query" element={<ProtectedRoute><SearchResults /></ProtectedRoute>} />

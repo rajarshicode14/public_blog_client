@@ -165,7 +165,7 @@ const Navigation = () => {
                                     <ul className="py-1 font-semibold font-Josefin-Sans" role="none">
                                         <li>
                                             <Link
-                                                to={`/myprofile/${uid}`}
+                                                to={`/myprofile`}
                                                 className="block px-4 py-2 text-sm hover:bg-gray-300"
                                                 role="menuitem"
                                                 onClick={() => setShowModal(!showModal)}
