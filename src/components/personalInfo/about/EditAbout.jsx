@@ -15,8 +15,8 @@ const EditAbout = ({ data }) => {
         setAbout(event.target.value);
     };
 
-    const onSubmitHandler = (e) => {
-        axios.put(`https://blogmate-api.onrender.com/addbio/${data._id}`, { about: about });
+    const onSubmitHandler = async (e) => {
+        await axios.put(`https://blogmate-api.onrender.com/addbio/${data._id}`, { about: about });
         window.location.reload();
     }
 
