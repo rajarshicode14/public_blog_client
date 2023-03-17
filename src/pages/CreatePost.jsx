@@ -6,6 +6,7 @@ import SkeletonLoader from '../components/loaders/SkeletonLoader';
 
 import JoditEditor from 'jodit-react';
 // import axios from "axios";
+import moment from 'moment';
 
 
 const CreatePost = () => {
@@ -27,6 +28,7 @@ const CreatePost = () => {
         data.set('content', content);
         data.set('banner', banner[0]);
         data.set('createdBy', uid);
+        data.set('createdAt', moment().format('D/M/YYYY, h:mm:ss a'))
 
         const result = await axios.post('https://blogmate-api.onrender.com/addpost', data);
         console.log(result)
